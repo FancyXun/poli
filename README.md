@@ -30,6 +30,13 @@ cd target
 java -jar poli-0.12.2.jar
 ```
 
+DataMeta.  
+First create database named eulerdb_schema   
+Then
+```sh
+mysql -u user -p password -h host -P port -Deulerdb_schema < db/schema-mysql.sql
+```
+
 
 Open http://localhost:6688/poli in chrome
 ## License
